@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./views/style.css">
     <title>Consulta de Importadores</title>
 </head>
+
 <body>
 
     <header id="HeaderContainer">
@@ -17,126 +19,97 @@
     </header>
 
     <main id="MainContainer">
-     
-<!--BLOCO DO EXCEL-->
-                <section class="MainContainer info_content_itens">
-                    <h2 class="MainContainer secondary_title">Importadores via Excel</h2>
-                    <select name="select">
-                        <option value="search_box">Selecione a Empresa Desejada</option>
-                        <option value="857 PRO SERVICOS EIRELI">857 PRO SERVICOS EIRELI</option>
-                        <option value="AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA">AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA</option>
-                        <option value="Agriperin Solucoes em Pulverizadores">Agriperin Solucoes em Pulverizadores</option>
-                        <option value="Empresa Arcari Empreend. Imob. Ltda">Arcari Empreend. Imob. Ltda</option>
-                        <option value="ARG Mangueiras">ARG Mangueiras</option>
-                        <option value="Ativa Empreendimentos Imobiliarios">Ativa Empreendimentos Imobiliarios</option>
-                        <option value="BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS">BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS</option>
-                        <option value="Barreiro e Wawzeniak Ltda">Barreiro e Wawzeniak Ltda</option>
-                        <option value="Restaurante BR 470">Restaurante BR 470</option>
-                        <option value="Buffon">Buffon</option>
-                        <option value="Clube de Caça e Pesca Santo Huberto">Clube de Caça e Pesca Santo Huberto</option>
-                        <option value="CASA A">CASA A</option>
-                        <option value="Casa das Madeiras">Casa das Madeiras</option>
-                        <option value="Clinica Veterinaria Vetvida">Clinica Veterinaria Vetvida</option>
-                        <option value="Construtora Gamate Ltda">Construtora Gamate Ltda</option>
-                        <option value="CRISTO REI MATERIAIS ELETRICOS LTDA">CRISTO REI MATERIAIS ELETRICOS LTDA</option>
-                        <option value="Essencia Di Fiori">Essencia Di Fiori</option>
-                        <option value="GP Comércio Varejista de Móveis Eireli">GP Comércio Varejista de Móveis Eireli</option>
-                        <option value="GWN Indústria e Comércio Ltda">GWN Indústria e Comércio Ltda</option>
-                        <option value="Icehot Comunicação Ltda">Icehot Comunicação Ltda</option>
-                        <option value="INVISEG ASSESSORIA EM SEGURANÇA">INVISEG ASSESSORIA EM SEGURANÇA</option>
-                        <option value="Kfuri & Filhos Ltda">Kfuri & Filhos Ltda</option>
-                        <option value="Mecânica Anderle">Mecânica Anderle</option>
-                        <option value="Mercado de Alimentos Grepar Ltda">Mercado de Alimentos Grepar Ltda</option>
-                        <option value="Padel Pro">Padel Pro</option>
-                        <option value="Reypel Importadora de Máquinas Ltda">Reypel Importadora de Máquinas Ltda</optio>
-                        <option value="Servlar">Servlar</option>
-                        <option value="Tatum Agência de Publicidade e Propaganda Eireli">Tatum Agência de Publicidade e Propaganda Eireli</option>
-                        <option value="Transmaria Transportes Ltda">Transmaria Transportes Ltda</option>
-                        <option value="Vinhedos Transportes Ltda">Vinhedos Transportes Ltda</option>
-                    </select>
-                </section>
-                
-                <!--FIM DO BLOCO EXCEL-->
-                
-                
-                <!--BLOCO DO CONCILIADOR-->
-                    <section class="MainContainer info_content_itens">
-                        <h2 class="MainContainer secondary_title">Importadores via Conciliador Contabil</h2>
-                        <select name="select">
-                            <option value="search_box">Selecione a Empresa Desejada</option>
-                            <option value="TESTE">TESTE</option>
-                        </select>
-                    </section>
-                
-                <!--FIM DO BLOCO DO CONCILIADOR-->
-                
-</main>              
-                
-                <!--BLOCO DO EXCEL-->
-                    
-                    <section id="detail_itens">
-                
-                        <h2 class="detail_itens primary_text_title"></h2>
-                        <h2 class="detail_itens primary_text_road"></h2>
-                        <h2 class="detail_itens primary_text_title">Arquivo do Importador</h2>
-                        <h2 class="detail_itens primary_text_desc"></h2>
-                
-                        <h2 class="detail_itens descPgto"></h2>
-                        <figure class="detail_itens primary_image">
+
+        <!--BLOCO DE LISTAS DE EMPRESAS VIA EXCEL-->
+        <section class="MainContainer info_content_itens">
+            <h2 class="MainContainer secondary_title">Importadores via Excel</h2>
+            <select name="select">
+                <option value="search_box">Selecione a Empresa Desejada</option>
+                <option value="857 PRO SERVICOS EIRELI">857 PRO SERVICOS EIRELI</option>
+                <option value="AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA">AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO
+                    LTDA</option>
+                <option value="Agriperin Solucoes em Pulverizadores">Agriperin Solucoes em Pulverizadores</option>
+                <option value="Empresa Arcari Empreend. Imob. Ltda">Arcari Empreend. Imob. Ltda</option>
+                <option value="ARG Mangueiras">ARG Mangueiras</option>
+                <option value="Ativa Empreendimentos Imobiliarios">Ativa Empreendimentos Imobiliarios</option>
+                <option value="BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS">BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS</option>
+                <option value="Barreiro e Wawzeniak Ltda">Barreiro e Wawzeniak Ltda</option>
+                <option value="Restaurante BR 470">Restaurante BR 470</option>
+                <option value="Buffon">Buffon</option>
+                <option value="Clube de Caça e Pesca Santo Huberto">Clube de Caça e Pesca Santo Huberto</option>
+                <option value="CASA A">CASA A</option>
+                <option value="Casa das Madeiras">Casa das Madeiras</option>
+                <option value="Clinica Veterinaria Vetvida">Clinica Veterinaria Vetvida</option>
+                <option value="Construtora Gamate Ltda">Construtora Gamate Ltda</option>
+                <option value="CRISTO REI MATERIAIS ELETRICOS LTDA">CRISTO REI MATERIAIS ELETRICOS LTDA</option>
+                <option value="Essencia Di Fiori">Essencia Di Fiori</option>
+                <option value="GP Comércio Varejista de Móveis Eireli">GP Comércio Varejista de Móveis Eireli</option>
+                <option value="GWN Indústria e Comércio Ltda">GWN Indústria e Comércio Ltda</option>
+                <option value="Icehot Comunicação Ltda">Icehot Comunicação Ltda</option>
+                <option value="INVISEG ASSESSORIA EM SEGURANÇA">INVISEG ASSESSORIA EM SEGURANÇA</option>
+                <option value="Kfuri & Filhos Ltda">Kfuri & Filhos Ltda</option>
+                <option value="Mecânica Anderle">Mecânica Anderle</option>
+                <option value="Mercado de Alimentos Grepar Ltda">Mercado de Alimentos Grepar Ltda</option>
+                <option value="Padel Pro">Padel Pro</option>
+                <option value="Reypel Importadora de Máquinas Ltda">Reypel Importadora de Máquinas Ltda</optio>
+                <option value="Servlar">Servlar</option>
+                <option value="Tatum Agência de Publicidade e Propaganda Eireli">Tatum Agência de Publicidade e
+                    Propaganda Eireli</option>
+                <option value="Transmaria Transportes Ltda">Transmaria Transportes Ltda</option>
+                <option value="Vinhedos Transportes Ltda">Vinhedos Transportes Ltda</option>
+            </select>
+        </section>
+
+        <!--FIM DO BLOCO EXCEL-->
+
+
+        <!--BLOCO DO CONCILIADOR
+        <section class="MainContainer info_content_itens">
+            <h2 class="MainContainer secondary_title">Importadores via Conciliador Contabil</h2>
+            <select name="select">
+                <option value="search_box">Selecione a Empresa Desejada</option>
+                <option value="Real Assessoria Empresarial">Real Assessoria Empresarial</option>
+            </select>
+        </section>
+
+        FIM DO BLOCO DO CONCILIADOR-->
+</main>
+ <!--BLOCO DE RETORNO DE INFORMAÇÕES VIA JAVASCRIPT PARA EMPRESAS DO EXCEL-->
+        <section id="detail_itens">
+
+            <h2 class="detail_itens primary_text_title"></h2>
+            <h2 class="detail_itens primary_text_road"></h2>
+            <h2 class="detail_itens primary_text_title">Arquivo do Importador</h2>
+            <h2 class="detail_itens primary_text_desc"></h2>
+
+            <h2 class="detail_itens descPgto"></h2>
+            <figure class="detail_itens primary_image">
                 <img class="primary_image" src="./assets/primary_logo.png" alt="Descrição do Arquivo">
-                        </figure>
-                
-                        <h2 class="detail_itens descReceb"></h2>
-                        <figure class="detail_itens secondary_image">
+            </figure>
+
+            <h2 class="detail_itens descReceb"></h2>
+            <figure class="detail_itens secondary_image">
                 <img class="secondary_image" alt="Descrição do Arquivo">
-                        </figure>
-                
-                    </section>
-                
-                <!--FIM DO BLOCO DO EXCEL-->
-                
-                
-                <!--BLOCO DO CONCILIADOR-->
-                
-                <section id="detail_itens">
-                
-                        <h2 class="detail_itens primary_text_title"></h2>
-                        <h2 class="detail_itens primary_text_road"></h2>
-                        <h2 class="detail_itens primary_text_title">Arquivo do Importador</h2>
-                        <h2 class="detail_itens primary_text_desc"></h2>
-                
-                        <h2 class="detail_itens descPgto"></h2>
-                        <figure class="detail_itens primary_image">
-                <img class="primary_image" src="./assets/primary_logo.png" alt="Descrição do Arquivo">
-                        </figure>
-                
-                        <h2 class="detail_itens descReceb"></h2>
-                        <figure class="detail_itens secondary_image">
-                <img class="secondary_image" alt="Descrição do Arquivo">
-                        </figure>
-                
-                </section>
+            </figure>
+
+        </section>
+
+        <!--FIM DO BLOCO DO EXCEL-->
+
+        <!--RODAPÉ-->
 
 
-
-<!--FIM DO BLOCO DO CONCILIADOR-->
-
-
-<!--RODAPÉ-->
-
-<!-- 
     <footer id="footer_container">
         <section class="footer_info">
             <h2 class="footer_info footer_text">Todos os Direitos Reservados - Real Assessoria Empresarial ©</h2>
             <h3 class="footer_info footer_sub_text">Desensolvido pelo Departamento de Tecnologia da Informação - Real Assessoria Empresarial</h3>
         </section>
+        <section class="footer_quest">
+            <a href="./views/quests.html">Dúvidas Frequentes</a>
+        </section>
     </footer>
--->
 
 </body>
-<script src="./scripts/emp_list_excel.js"></script><!--IMPORTA A LISTA DE EMPRESAS-->
-<script src="./scripts/reveal_itens_excel.js"></script> <!--IMPORTA O SCRIPT PARA EXCEL-->
-
-<script src="./scripts/emp_list_conciliador.js"></script>
-<script src="./scripts/reveal_itens_conciliador.js"></script>
+    <script src="./scripts/emp_list_excel.js"></script><!--IMPORTA A LISTA DE EMPRESAS-->
+    <script src="./scripts/reveal_itens_excel.js"></script> <!--IMPORTA O SCRIPT PARA EXCEL-->
 </html>

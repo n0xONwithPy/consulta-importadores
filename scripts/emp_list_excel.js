@@ -6,6 +6,12 @@ const info857 = {
     imagem: './assets/emp_arquivos/excelClass/857_arq/857.jpg'
   
   };
+
+  const infoTeste = {
+    descricao: 'TESTE',
+    caminho: 'TESTE',
+    imagem: './assets/primary_logo.png'
+  };
   
   const infoAeg = {
     descricao: 'Empresa AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
@@ -256,5 +262,6 @@ const info857 = {
     'Servlar' : infoServlar,
     'Tatum Agência de Publicidade e Propaganda Eireli' : infoTatum,
     'Transmaria Transportes Ltda' : infoTransmaria,
-    'Vinhedos Transportes Ltda' : infoVinhedos
+    'Vinhedos Transportes Ltda' : infoVinhedos,
+    'Real Assessoria Empresarial' : infoTeste
   };
