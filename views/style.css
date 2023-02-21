@@ -7,7 +7,8 @@
 }
 
 :root {
-    --font_set: 'Roboto Mono', monospace;;
+    --font_set: 'Roboto Mono', monospace;
+    ;
 }
 
 select {
@@ -35,6 +36,7 @@ select {
     flex-direction: row;
 
     margin: 100px auto;
+    margin-top: 10rem;
 
     width: 100vw;
     height: 10px;
@@ -91,7 +93,7 @@ select {
     margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    
+
     padding: 50px;
 }
 
@@ -122,10 +124,8 @@ select {
 }
 
 #footer_container {
-   display: flex;
-   margin-top: 18rem;
-
-   justify-content: space-around;
+    display: flex;
+    margin-top: 40rem;
 }
 
 .footer_info {
@@ -149,6 +149,15 @@ select {
     margin-right: 10px;
     padding: 5px;
     font-size: 15px;
+
+    margin-top: -10rem;
+}
+
+#all_quests {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
 }
 
 .content_quest {
@@ -156,14 +165,14 @@ select {
     justify-content: center;
     flex-direction: column;
 
-    margin-top: 20px;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
 
     background-color: #e4e4e4;
 
     width: 900px;
-    height: 90px;
+    height: 120px;
 
     border-radius: 9px;
 }
@@ -181,5 +190,5 @@ select {
     margin-left: 5px;
     font-family: var(--font_set);
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 900;
 }
