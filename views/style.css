@@ -45,7 +45,7 @@ select {
 .info_content_itens {
     text-align: center;
     font-family: var(--font_set);
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .info_content_itens select:hover {
@@ -147,11 +147,14 @@ select {
 .btn_return {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
-    padding: 5px;
-    font-size: 15px;
-
+    
     margin-top: -10rem;
+    margin-left: 88%;
+    
+    font-size: 15px;
+    padding: 5px;
+
+    width: 135px;
 }
 
 #all_quests {
@@ -197,8 +200,8 @@ select {
 
 .content_video {
     display: flex;
-    justify-content: center;    
-   
+    justify-content: center;
+
     margin-top: 3rem;
 
     width: 1200px;
@@ -206,6 +209,6 @@ select {
 }
 
 .content_video iframe {
-    width: 1200px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
 }

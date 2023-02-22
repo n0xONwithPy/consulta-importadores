@@ -1,8 +1,8 @@
 //CONSTANTES QUE BUSCAM DO HTML O QUE FOI SELECIONADO
 const select_conciElement = document.getElementById('select_conci');
 const detailItens_conci = document.getElementById('detail_itens');
-const caminho_conciElement = detailItens_conci.querySelector('.primary_text_road');
 const descricao_conciElement = detailItens_conci.querySelector('.primary_text_title');
+const caminho_conciElement = detailItens_conci.querySelector('.primary_text_road');
 const imagem_conciElement = detailItens_conci.querySelector('.primary_image img');
 
 
@@ -11,14 +11,14 @@ function updateDetailItens_conci(selectedOption_conci) {
   const selectedInfo_conci = infoMap_conci[selectedOption_conci];
   if (selectedInfo_conci) {
     detailItens_conci.style.display = 'block';
-    //CAMINHO PARA O IMPORTADOR
-    caminho_conciElement.textContent = selectedInfo_conci.caminho_conci;
     //DESCRIÇÃO DA EMPRESA
     descricao_conciElement.textContent = selectedInfo_conci.descricao_conci;
+
+    caminho_conciElement.textContent = selectedInfo_conci.caminho_conci;
     //IMAGEM DE PAGAMENTO
     imagem_conciElement.src = selectedInfo_conci.imagem_conci;
     //DESCRIÇÃO ALTERNATIVA DO ARQUIVO DE PAGAMENTOS
-    imagem_conciElement.alt = `Descrição do arquivo ${selectedOption_conci}`;
+   
   } else {
     detailItens_conci.style.display = 'none'; //QUANDO NÃO SELECIONAR NENHUMA OPÇÃO DO MENU NÃO EXIBE NADA
   }

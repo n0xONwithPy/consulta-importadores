@@ -22,7 +22,7 @@
 
     <main id="MainContainer">
 
-        <!--BLOCO DE LISTAS DE EMPRESAS VIA EXCEL-->
+<!--BLOCO DE LISTAS DE EMPRESAS VIA EXCEL-->
         <section class="MainContainer info_content_itens">
             <h2 class="MainContainer secondary_title">Importadores via Excel</h2>
             <select name="select">
@@ -61,70 +61,43 @@
                 <option value="Vinhedos Transportes Ltda">Vinhedos Transportes Ltda</option>
             </select>
         </section>
+<!--FIM DO BLOCO EXCEL-->
 
-        <!--FIM DO BLOCO EXCEL-->
 
-
-        <!--BLOCO DO CONCILIADOR-->
+<!--BLOCO DO CONCILIADOR-->
         <section class="MainContainer info_content_itens">
             <h2 class="MainContainer secondary_title">Importadores via Conciliador Contabil</h2>
             <select name="select" id="select_conci">
                 <option value="search_box">Selecione a Empresa Desejada</option>
-                <option value="TESTE">Real Assessoria Empresarial</option>
+                <option value="Allcap Ind. Com. e Serv. em Ferr. Ltda">Allcap Ind. Com. e Serv. em Ferr. Ltda</option>
             </select>
         </section>
-
-        <!--FIM DO BLOCO DO CONCILIADOR-->
+<!--FIM DO BLOCO DO CONCILIADOR-->
 </main>
- <!--BLOCO DE RETORNO DE INFORMAÇÕES VIA JAVASCRIPT PARA EMPRESAS DO EXCEL-->
+
+ <!--BLOCO DE RETORNO DE INFORMAÇÕES VIA JAVASCRIPT PARA EMPRESAS-->
         <section id="detail_itens">
 
             <h2 class="detail_itens primary_text_title"></h2>
             <h2 class="detail_itens primary_text_road"></h2>
-            <h2 class="detail_itens primary_text_title">Arquivo do Importador</h2>
+            <h2 class="detail_itens primary_text_title">Arquivo Utilizado</h2>
             <h2 class="detail_itens primary_text_desc"></h2>
 
             <h2 class="detail_itens descPgto"></h2>
             <figure class="detail_itens primary_image">
-                <img class="primary_image" src="./assets/primary_logo.png" alt="Descrição do Arquivo">
+                <img class="primary_image" src="./assets/primary_logo.png" alt="">
             </figure>
 
             <h2 class="detail_itens descReceb"></h2>
             <figure class="detail_itens secondary_image">
-                <img class="secondary_image" alt="Descrição do Arquivo">
+                <img class="secondary_image" alt="">
             </figure>
 
         </section>
-
-        <!--FIM DO BLOCO DO EXCEL-->
-
-
-<!--BLOCO DE RETORNO DAS INFORMAÇÕES VIA JAVASCRIPT PARA EMPRESAS DO CONCILIADOR-->
-        <section id="detail_itens">
-
-            <h2 class="detail_itens primary_text_title"></h2>
-            <h2 class="detail_itens primary_text_road"></h2>
-            <h2 class="detail_itens primary_text_title">Arquivo do Importador</h2>
-            <h2 class="detail_itens primary_text_desc"></h2>
-
-            <h2 class="detail_itens descPgto"></h2>
-            <figure class="detail_itens primary_image">
-                <img class="primary_image" src="./assets/primary_logo.png" alt="Descrição do Arquivo">
-            </figure>
-
-            <h2 class="detail_itens descReceb"></h2>
-            <figure class="detail_itens secondary_image">
-                <img class="secondary_image" alt="Descrição do Arquivo">
-            </figure>
-
-        </section>
-
-        <!--FIM DO BLOCO DO CONCILIADOR-->
+<!--FIM DO BLOCO DE RETORNO-->
 
 
-        <!--RODAPÉ-->
-
-
+<!--RODAPÉ-->
         <footer id="footer_container">
             <section class="footer_info">
                 <h2 class="footer_info footer_text">Todos os Direitos Reservados - Real Assessoria Empresarial ©</h2>
@@ -132,10 +105,13 @@
             </section>
         </footer>
 
-</body>
-    <script src="./scripts/emp_list_excel.js"></script><!--IMPORTA A LISTA DE EMPRESAS EXCEL-->
-    <script src="./scripts/reveal_itens_excel.js"></script><!--IMPORTA O SCRIPT PARA EXCEL-->
-
-    <script src="./scripts/emp_list_conci.js"></script><!--IMPORTA A LISTA DE EMPRESAS CONCILIADOR-->
-    <script src="./scripts/reveal_itens_conci.js"></script><!--IMPORTA O SCRIPT PARA CONCILIADOR-->
+    </body>
+    <!--IMPORTA A LISTA DE EMPRESAS EXCEL-->
+    <script src="./scripts/emp_list_excel.js"></script>
+    <!--IMPORTA O SCRIPT PARA EXCEL-->
+    <script src="./scripts/reveal_itens_excel.js"></script>
+    <!--IMPORTA A LISTA DE EMPRESAS CONCILIADOR-->
+    <script src="./scripts/emp_list_conci.js"></script>
+    
+    <script src="./scripts/reveal_itens_conci.js"></script>
 </html>

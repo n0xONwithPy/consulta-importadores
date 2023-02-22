@@ -22,14 +22,10 @@ function updateDetailItens(selectedOption) {
     descPgto.textContent = selectedInfo.descPgto;
     //IMAGEM DOS RECEBIMENTOS
     imgReceb.src = selectedInfo.imgReceb;
-    //DESCRIÇÃO ALTERNATIVA DO ARQUIVO DE RECEBIMENTOS
-    imgReceb.alt = `Descrição do arquivo ${selectedOption}`;
     //DESCRIÇÃO DE RECEBIMENTO
     descReceb.textContent = selectedInfo.descReceb
     //IMAGEM DE PAGAMENTO
     imagemElement.src = selectedInfo.imagem;
-    //DESCRIÇÃO ALTERNATIVA DO ARQUIVO DE PAGAMENTOS
-    imagemElement.alt = `Descrição do arquivo ${selectedOption}`;
   } else {
     detailItens.style.display = 'none'; //QUANDO NÃO SELECIONAR NENHUMA OPÇÃO DO MENU NÃO EXIBE NADA
   }
