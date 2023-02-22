@@ -45,6 +45,7 @@ select {
 .info_content_itens {
     text-align: center;
     font-family: var(--font_set);
+    margin-left: 5%;
 }
 
 .info_content_itens select:hover {
@@ -125,7 +126,7 @@ select {
 
 #footer_container {
     display: flex;
-    margin-top: 40rem;
+    margin-top: 37rem;
 }
 
 .footer_info {
@@ -156,6 +157,7 @@ select {
 #all_quests {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-top: 10rem;
 }
@@ -191,4 +193,19 @@ select {
     font-family: var(--font_set);
     font-size: 13px;
     font-weight: 900;
+}
+
+.content_video {
+    display: flex;
+    justify-content: center;    
+   
+    margin-top: 3rem;
+
+    width: 1200px;
+    height: 400px;
+}
+
+.content_video iframe {
+    width: 1200px;
+    height: 600px;
 }
