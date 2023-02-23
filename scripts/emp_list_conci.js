@@ -120,6 +120,25 @@ const infoNanin = {
   imagem_conci: './assets/emp_arquivos/conciClass/nanin_arq/sicredi.jpg'
 };
 
+const infoPelegrini = {
+  descricao_conci: 'Empresa Pelegrini Veículos Ltda utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'Caminho para o Arquivo: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Pelegrini Veículos Ltda\\Extratos\\2022\\SICREDI\\COMPROVANTES',
+  imagem_conci: './assets/emp_arquivos/conciClass/pelegrini_arq/sicredi.jpg'
+};
+
+const infoComiotto = {
+  descricao_conci: 'Empresa Comiotto Assessoria Empresarial LTDA utiliza Conciliador Contabil para extrair dados de Comprovantes de Emprestimo do Sicredi.',
+  caminho_conci: 'Caminho para o Arquivo M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Comiotto Assessoria Empresarial LTDA\\Extratos\\2022\\Sicredi',
+  imagem_conci: './assets/emp_arquivos/conciClass/comiotto_arq/sicredi.jpg'
+};
+
+//criar novas variaveis para os dados dessa empresa
+const infoParisotto = {
+  descricao_conci: 'Empresa Padaria Parisotto',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
 const infoMap_conci = {
   'search_box' : null,
   'Allcap Ind. Com. e Serv. em Ferr. Ltda' : infoAllcap,
@@ -139,5 +158,7 @@ const infoMap_conci = {
   'Servlar': infoServlarAlt,
   'Basinox': infoBasinox,
   'Bella Vitta Mia Casa de Repouso EIRELI': infoBellaVista,
-  'Comércio e Transportes de Frutas Nanin': infoNanin
+  'Comércio e Transportes de Frutas Nanin': infoNanin,
+  'Pelegrini Veículos Ltda': infoPelegrini,
+  'Comiotto Assessoria Empresarial LTDA': infoComiotto
 };
