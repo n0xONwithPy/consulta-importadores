@@ -134,7 +134,91 @@ const infoComiotto = {
 
 //criar novas variaveis para os dados dessa empresa
 const infoParisotto = {
-  descricao_conci: 'Empresa Padaria Parisotto',
+  descricao_conci: 'Empresa Padaria Parisotto utiliza Conciliador Contabil para extrair dados de Comprovantes de Pagamento do Banco do Brasil, Consulta de Emprestimos do banco Sicredi e Pagamentos Sicredi.',
+  caminho_conci: 'Caminho para os Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Padaria Parisotto\\Extratos Bancários',
+  imagem_conci: ''
+};
+
+const infoFoxEnc = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoBorrPlanalto = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoBSushi = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoHolding = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoCSports = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoBiosolos = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoCBMont = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoAFI = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoPPlato = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoImperius = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoSigplast = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoHidroclima = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoDolceGusto = {
+  descricao_conci: '',
+  caminho_conci: '',
+  imagem_conci: ''
+};
+
+const infoOnorataAlt = {
+  descricao_conci: '',
   caminho_conci: '',
   imagem_conci: ''
 };

@@ -182,7 +182,7 @@ const info857 = {
   }
 
   const infoPadel = {
-    descricao: 'EmpresaPadel Pro utiliza arquivos Excel para Relatorio do Mes e Pix.',
+    descricao: 'Empresa Padel Pro utiliza arquivos Excel para Relatorio do Mes e Pix.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Padel Pro\\ImportadorRecibos',
     //CONDICIONAO DOS ARQUIVOS E INFORMAÇÕES
     descPgto: 'Arquivo de Relatorio Mensal.', 
