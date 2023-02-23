@@ -23,7 +23,7 @@ function updateDetailItens(selectedOption) {
     //IMAGEM DOS RECEBIMENTOS
     imgReceb.src = selectedInfo.imgReceb;
     //DESCRIÇÃO DE RECEBIMENTO
-    descReceb.textContent = selectedInfo.descReceb
+    descReceb.textContent = selectedInfo.descReceb;
     //IMAGEM DE PAGAMENTO
     imagemElement.src = selectedInfo.imagem;
   } else {
