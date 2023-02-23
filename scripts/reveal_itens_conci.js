@@ -1,33 +1,34 @@
 //CONSTANTES QUE BUSCAM DO HTML O QUE FOI SELECIONADO
-const select_conciElement = document.getElementById('select_conci');
-const detailItens_conci = document.getElementById('detail_itens');
-const descricao_conciElement = detailItens_conci.querySelector('.primary_text_title');
-const caminho_conciElement = detailItens_conci.querySelector('.primary_text_road');
-const imagem_conciElement = detailItens_conci.querySelector('.primary_image img');
+const selectAltElement = document.getElementById('select_conci');
+const detailItensAlt = document.getElementById('detail_itens');
+const descricaoAltElement = detailItensAlt.querySelector('.primary_text_title');
+const caminhoAltElement = detailItensAlt.querySelector('.primary_text_road');
+const imagemAltElement = detailItensAlt.querySelector('.primary_image img');
 
 
 //CRIA AS INFORMAÇÕES DE CADA EMPRESA E SEUS DETALHES NA TELA
-function updateDetailItens_conci(selectedOption_conci) {
-  const selectedInfo_conci = infoMap_conci[selectedOption_conci];
-  if (selectedInfo_conci) {
-    detailItens_conci.style.display = 'block';
+function updateDetailItens_conciliador(selectedOption) {
+  const selectedInfoAlt = infoMap_conci[selectedOption];
+  if (selectedInfoAlt) {
+    detailItensAlt.style.display = 'block';
     //DESCRIÇÃO DA EMPRESA
-    descricao_conciElement.textContent = selectedInfo_conci.descricao_conci;
+    descricaoAltElement.textContent = selectedInfoAlt.descricao_conci;
 
-    caminho_conciElement.textContent = selectedInfo_conci.caminho_conci;
+    caminhoAltElement.textContent = selectedInfoAlt.caminho_conci;
     //IMAGEM DE PAGAMENTO
-    imagem_conciElement.src = selectedInfo_conci.imagem_conci;
+
+    imagemAltElement.src = selectedInfoAlt.imagem_conci;
     //DESCRIÇÃO ALTERNATIVA DO ARQUIVO DE PAGAMENTOS
    
   } else {
-    detailItens_conci.style.display = 'none'; //QUANDO NÃO SELECIONAR NENHUMA OPÇÃO DO MENU NÃO EXIBE NADA
+    detailItensAlt.style.display = 'none'; //QUANDO NÃO SELECIONAR NENHUMA OPÇÃO DO MENU NÃO EXIBE NADA
   }
 }
 
 //VERIFICA A ALTERAÇÃO DE OPÇÕES NO MENU
-select_conciElement.addEventListener('change', function(event_conci) {
-  const selectedOption_conci = event_conci.target.value;
-  updateDetailItens_conci(selectedOption_conci);
+selectAltElement.addEventListener('change', function(event) {
+  const selectedOptionAlt = event.target.value;
+  updateDetailItens_conciliador(selectedOptionAlt);
 });
-const initialOption_conci = select_conciElement.value;
-updateDetailItens_conci(initialOption_conci);
+const initialOptionAlt = selectAltElement.value;
+updateDetailItens_conciliador(initialOptionAlt);
