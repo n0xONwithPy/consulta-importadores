@@ -45,7 +45,7 @@ select {
 .info_content_itens {
     text-align: center;
     font-family: var(--font_set);
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .info_content_itens select:hover {
@@ -162,7 +162,7 @@ select {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 10rem
 }
 
 .content_quest {
@@ -201,14 +201,16 @@ select {
 .content_video {
     display: flex;
     justify-content: center;
-
-    margin-top: 3rem;
-
+    align-items: center;
+    flex-direction: column;
     width: 1200px;
-    height: 400px;
+    height: 600px;
+
+    margin-top: 4rem;
 }
 
 .content_video iframe {
-    width: 800px;
-    height: 400px;
+    padding: 1rem;
+    width: 600px;
+    height: 900px;
 }

@@ -24,14 +24,26 @@
 
     <main id="MainContainer">
 
+<!--BLOCO DE LISTA DE MODELOS DE ARQUIVOS-->
+        <section class="MainContainer info_content_itens">
+            <h2 class="MainContainer sencodary_title">Modelos<br>de Arquivos</h2>
+            <select name="select" id="select_arq">
+                <option value="search_box">Selecione o Modelo de Arquivo Desejado</option>
+                <option value="Francesinha Sicredi">Francesinha Sicredi</option>
+                <option value="Sicredi Consulta de Emprestimos">Sicredi Consulta de Emprestimos</option>
+                <option value="Banrisul Extrato de Conta Corrente">Banrisul Extrato de Conta Corrente</option>
+            </select>
+        </section>
+<!--FIM DO BLOCO DE ARQUIVOS-->
+
+
 <!--BLOCO DE LISTAS DE EMPRESAS VIA EXCEL-->
         <section class="MainContainer info_content_itens">
-            <h2 class="MainContainer secondary_title">Importadores via Excel</h2>
-            <select name="select">
+            <h2 class="MainContainer secondary_title">Importadores<br>via Excel</h2>
+            <select name="select" id="select_excel">
                 <option value="search_box">Selecione a Empresa Desejada</option>
                 <option value="857 PRO SERVICOS EIRELI">857 PRO SERVICOS EIRELI</option>
-                <option value="AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA">AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO
-                    LTDA</option>
+                <option value="AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA">AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA</option>
                 <option value="Agriperin Solucoes em Pulverizadores">Agriperin Solucoes em Pulverizadores</option>
                 <option value="Empresa Arcari Empreend. Imob. Ltda">Arcari Empreend. Imob. Ltda</option>
                 <option value="ARG Mangueiras">ARG Mangueiras</option>
@@ -61,6 +73,7 @@
                     Propaganda Eireli</option>
                 <option value="Transmaria Transportes Ltda">Transmaria Transportes Ltda</option>
                 <option value="Vinhedos Transportes Ltda">Vinhedos Transportes Ltda</option>
+                <option value="NICOLAO & MATOS LTDA & FILIAIS">NICOLAO & MATOS LTDA & FILIAIS</option>
             </select>
         </section>
 <!--FIM DO BLOCO EXCEL-->
@@ -68,7 +81,7 @@
 
 <!--BLOCO DO CONCILIADOR-->
         <section class="MainContainer info_content_itens">
-            <h2 class="MainContainer secondary_title">Importadores via Conciliador Contabil</h2>
+            <h2 class="MainContainer secondary_title">Importadores<br>via Conciliador Contabil</h2>
             <select name="select" id="select_conci">
                 <option value="search_box">Selecione a Empresa Desejada</option>
                 <option value="Allcap Ind. Com. e Serv. em Ferr. Ltda">Allcap Ind. Com. e Serv. em Ferr. Ltda</option>
@@ -90,6 +103,14 @@
                 <option value="Comércio e Transportes de Frutas Nanin">Comércio e Transportes de Frutas Nanin</option>
                 <option value="Pelegrini Veículos Ltda">Pelegrini Veículos Ltda</option>
                 <option value="Comiotto Assessoria Empresarial LTDA">Comiotto Assessoria Empresarial LTDA</option>
+                <option value="Fox Encomendas">Fox Encomendas</option>
+                <option value="CARDOSO SPORTS SERIGRAFIA LTDA">CARDOSO SPORTS SERIGRAFIA LTDA</option>
+                <option value="Biosolos Compostos Orgânicos Ltda">Biosolos Compostos Orgânicos Ltda</option>
+                <option value="Imperius Fabricação de Moveis Eireli">Imperius Fabricação de Moveis Eireli</option>
+                <option value="SIGPLAST ARTEFATOS PLASTICOS LTDA">SIGPLAST ARTEFATOS PLASTICOS LTDA</option>
+                <option value="Hidroclima Ltda ME">Hidroclima Ltda ME</option>
+                <option value="Confeitaria Dolce Gusto Ltda">Confeitaria Dolce Gusto Ltda</option>
+                <option value="ONORATTA CONFEITARIA LTDA">ONORATTA CONFEITARIA LTDA</option>
             </select>
         </section>
 <!--FIM DO BLOCO DO CONCILIADOR-->
@@ -100,7 +121,7 @@
 
             <h2 class="detail_itens primary_text_title"></h2>
             <h2 class="detail_itens primary_text_road"></h2>
-            <h2 class="detail_itens primary_text_title">Arquivo Utilizado</h2>
+            <h2 class="detail_itens primary_text_title">Arquivo Utilizado</h2> <!--REMOVER DA SELEÇÃO DE ARQUIVOS-->
             <h2 class="detail_itens primary_text_desc"></h2>
 
             <h2 class="detail_itens descPgto"></h2>
@@ -123,13 +144,15 @@
                 <h3 class="footer_info footer_sub_text">Desenvolvido pelo Departamento de T.I - Real Assessoria Empresarial</h3>
             </section>
         </footer>
+<!--FIM DO RODAPÉ-->
 
     </body>
-
+    <script src="./scripts/arq_list.js"></script>
+    <script src="./scripts/reveal_itens_arq.js"></script>
+    
     <script src="./scripts/emp_list_excel.js"></script>
     <script src="./scripts/reveal_itens_excel.js"></script>
     
     <script src="./scripts/emp_list_conci.js"></script>
     <script src="./scripts/reveal_itens_conci.js"></script>
-
 </html>

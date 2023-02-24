@@ -214,7 +214,7 @@ const info857 = {
   }
 
   const infoTransmaria = {
-    descricao: 'Empresa Tatum Agência de Publicidade e Propaganda Eireli utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
+    descricao: 'Empresa Transmaria Transportes Ltda utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Transmaria Transportes Ltda\\NovoImportador',
     imagem: './assets/emp_arquivos/excelClass/Transmaria_arq/franSicredi.jpg'
   }
@@ -224,6 +224,12 @@ const info857 = {
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Vinhedos Transportes Ltda\\NovoImportador',
     imagem: './assets/emp_arquivos/excelClass/Vinhedos_arq/pagamento.jpg'
   }
+
+  const infoNicolao = {
+    descricao: 'Empresa NICOLAO & MATOS LTDA & FILIAIS utiliza arquivos Excel para Recebimentos e Pagamentos de Matriz e Filial.',
+    caminho: 'Caminhos para os Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\NICOLAO & MATOS LTDA & FILIAIS\\Contabilidade\\12-2022',
+    imagem: './assets/emp_arquivos/excelClass/nicolao_arq/pgto.jpg'
+  };
 
   const infoMap = {
     'search_box': null,
@@ -256,5 +262,6 @@ const info857 = {
     'Servlar' : infoServlar,
     'Tatum Agência de Publicidade e Propaganda Eireli' : infoTatum,
     'Transmaria Transportes Ltda' : infoTransmaria,
-    'Vinhedos Transportes Ltda' : infoVinhedos
+    'Vinhedos Transportes Ltda' : infoVinhedos,
+    'NICOLAO & MATOS LTDA & FILIAIS': infoNicolao
   };

@@ -140,87 +140,87 @@ const infoParisotto = {
 };
 
 const infoFoxEnc = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa Fox Encomendas utiliza Conciliador Contabil para extrair dados de arquivos de Francesinha Sicredi.',
+  caminho_conci: 'Caminho para os Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Fox Encomendas\\Extratos\\2022\\FRANCESINHA',
+  imagem_conci: './assets/emp_arquivos/conciClass/FoxEnco_Arq/sicredi.jpg'
 };
 
 const infoBorrPlanalto = {
-  descricao_conci: '',
+  descricao_conci: 'Empresa Borrachas Planalto LTDA',
   caminho_conci: '',
   imagem_conci: ''
-};
+}; //sem layout no sistema
 
 const infoBSushi = {
-  descricao_conci: '',
+  descricao_conci: 'Empresa Bento Sushi Delivery Ltda ',
   caminho_conci: '',
   imagem_conci: ''
-};
+}; //sem layout no sistema
 
 const infoHolding = {
   descricao_conci: '',
   caminho_conci: '',
   imagem_conci: ''
-};
+}; //sem layout no sistema
 
 const infoCSports = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
-};
+  descricao_conci: 'Empresa CARDOSO SPORTS SERIGRAFIA LTDA utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'Caminho para os Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\CARDOSO SPORTS SERIGRAFIA LTDA\\Extratos\\SICREDI\\2022\\COMPROVANTES',
+  imagem_conci: './assets/emp_arquivos/conciClass/cSports_arq/sicredi.jpg'
+}; 
 
-const infoBiosolos = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+const infoBiosolosAlt = {
+  descricao_conci: 'Empresa Biosolos Compostos Orgânicos Ltda utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Biosolos Compostos Orgânicos Ltda\\EXTRATOS\\Sicredi\\2022\\COMPROVANTES',
+  imagem_conci: './assets/emp_arquivos/conciClass/biosolos_arq/sicredi.jpg'
 };
 
 const infoCBMont = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa CB Montagens de Estruturas Metalicas utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\CB Montagens de Estruturas Metalicas\\Extratos\\2022\\COMPROVANTES',
+  imagem_conci: './assets/emp_arquivos/conciClass/CBMont_arq/sicredi.jpg'
 };
 
 const infoAFI = {
-  descricao_conci: '',
+  descricao_conci: 'Empresa AFI INDÚSTRIA E COMÉRCIO LTDA ',
   caminho_conci: '',
   imagem_conci: ''
-};
+}; //sem layout no sistema
 
 const infoPPlato = {
-  descricao_conci: '',
-  caminho_conci: '',
+  descricao_conci: 'Empresa Primo Palato Padaria utiliza Conciliador Contabil para extrair dados de arquivos Comprovantes de Pagamentos do Banco Banrisul.',
+  caminho_conci: 'M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Primo Palato Padaria\\Extratos\\2022\\12 2022',
   imagem_conci: ''
-};
+}; //sem layout cadastrado
 
 const infoImperius = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa Imperius Fabricação de Moveis Eireli utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'Caminho para o Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Imperius Fabricação de Moveis Eireli\\Extratos\\2022\\PAGAMENTOS',
+  imagem_conci: './assets/emp_arquivos/conciClass/Imperius_arq/sicredi.jpg'
 };
 
 const infoSigplast = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa SIGPLAST ARTEFATOS PLASTICOS LTDA ',
+  caminho_conci: 'Caminho para o Arquivo: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\SIGPLAST ARTEFATOS PLASTICOS LTDA\\Extratos\\2022\\SICREDI\\PAGAMENTOS',
+  imagem_conci: './assets/emp_arquivos/conciClass/sigplast_arq/sicredi.jpg'
 };
 
 const infoHidroclima = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa Hidroclima Ltda ME utiliza Conciliador Contabil para extrair dados de Comprovantes do Sicredi.',
+  caminho_conci: 'Caminho para o Arquivo: M:\Fisc_Contabil\EMPRESAS\01 - EMPRESAS ATIVAS E INATIVAS\Hidroclima Ltda ME\Extratos\2022\PAGAMENTOS',
+  imagem_conci: './assets/emp_arquivos/conciClass/Hidro_arq/sicredi.jpg'
 };
 
 const infoDolceGusto = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa Confeitaria Dolce Gusto Ltda utiliza Conciliador Contabil para extrair dados de Extratos de Conta Corrente do banco Sicoob.',
+  caminho_conci: 'Caminho do Arquivo: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Confeitaria Dolce Gusto Ltda\\EXTRATOS\\SICOOB\\CTA 74.969-9\\2023\\CC',
+  imagem_conci: './assets/emp_arquivos/conciClass/dolce_arq/sicoob.jpg'
 };
 
 const infoOnorataAlt = {
-  descricao_conci: '',
-  caminho_conci: '',
-  imagem_conci: ''
+  descricao_conci: 'Empresa ONORATTA CONFEITARIA LTDA utiliza Conciliador Contabil para extrair dados de arquivos Comprovantes de Pagamentos do Banco Banrisul.',
+  caminho_conci: 'Caminho para o Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\ONORATTA CONFEITARIA LTDA - Antes Specialitá Lanches\\Extratos Bancários\\2022\\COMPROVANTES\\RECIBOS',
+  imagem_conci: './assets/emp_arquivos/conciClass/ono_arq/banrisul.jpg'
 };
 
 const infoMap_conci = {
@@ -244,5 +244,13 @@ const infoMap_conci = {
   'Bella Vitta Mia Casa de Repouso EIRELI': infoBellaVista,
   'Comércio e Transportes de Frutas Nanin': infoNanin,
   'Pelegrini Veículos Ltda': infoPelegrini,
-  'Comiotto Assessoria Empresarial LTDA': infoComiotto
+  'Comiotto Assessoria Empresarial LTDA': infoComiotto,
+  'Fox Encomendas': infoFoxEnc,
+  'CARDOSO SPORTS SERIGRAFIA LTDA': infoCSports,
+  'Biosolos Compostos Orgânicos Ltda': infoBiosolosAlt,
+  'Imperius Fabricação de Moveis Eireli': infoImperius,
+  'SIGPLAST ARTEFATOS PLASTICOS LTDA': infoSigplast,
+  'Hidroclima Ltda ME': infoHidroclima,
+  'Confeitaria Dolce Gusto Ltda': infoDolceGusto,
+  'ONORATTA CONFEITARIA LTDA': infoOnorataAlt
 };

@@ -1,5 +1,5 @@
 //CONSTANTES QUE BUSCAM DO HTML O QUE FOI SELECIONADO
-const selectElement = document.querySelector('select[name="select"]');
+const selectElement = document.getElementById('select_excel');
 const detailItens = document.getElementById('detail_itens');
 const caminhoElement = detailItens.querySelector('.primary_text_road');
 const descricaoElement = detailItens.querySelector('.primary_text_title');
