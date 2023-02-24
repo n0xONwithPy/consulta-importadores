@@ -55,29 +55,34 @@ select {
     display: flex;
     font-family: var(--font_set);
     font-size: 15px;
+    font-weight: 900;
 }
 
 .primary_text_desc {
     display: flex;
     margin-top: 15px;
+    font-weight: 900;
 }
 
 .primary_text_road {
     display: flex;
     font-family: var(--font_set);
     font-size: 15px;
+    font-weight: 900;
 }
 
 .descReceb {
     display: flex;
     font-family: var(--font_set);
     font-size: 15px;
+    font-weight: 900;
 }
 
 .descPgto {
     display: flex;
     font-family: var(--font_set);
     font-size: 15px;
+    font-weight: 900;
 }
 
 #detail_itens {
@@ -95,12 +100,15 @@ select {
     margin-right: auto;
 
     padding: 50px;
+    
+    font-weight: 900;
 }
 
 #detail_itens h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    font-weight: 900;
 }
 
 .primary_image {
@@ -205,7 +213,7 @@ select {
     width: 1200px;
     height: 600px;
 
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .content_video iframe {
