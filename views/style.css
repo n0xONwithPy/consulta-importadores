@@ -32,12 +32,11 @@ select {
 
 #MainContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
-
     margin: 100px auto;
+    margin-top: 100px;
     margin-top: 10rem;
-
     width: 100vw;
     height: 10px;
 }
@@ -147,10 +146,10 @@ select {
 .btn_return {
     display: flex;
     justify-content: flex-end;
-    
+
     margin-top: -10rem;
     margin-left: 88%;
-    
+
     font-size: 15px;
     padding: 5px;
 
