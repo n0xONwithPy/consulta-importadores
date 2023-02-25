@@ -3,6 +3,7 @@
 const info857 = {
     descricao: 'Empresa 857 PRO SERVICOS EIRELI utiliza arquivos de Excel para Pagamentos e Recebimentos sendo que para os 2 Modelos de importadores é utilizado o mesmo arquivo.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\857 PRO SERVICOS EIRELI\\-Novo Importador-',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/857_arq/857.jpg'
   
   };
@@ -10,12 +11,14 @@ const info857 = {
   const infoAeg = {
     descricao: 'Empresa AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA\\Novo Importador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/AEG_arq/aeg.jpg'
   };
   
   const infoAgriperin = {
     descricao: 'Empresa Agriperin Solucoes em Pulverizadores utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Agriperin Solucoes em Pulverizadores\\--- Importador Novo ---\\ImportadorFranscesinhaSicredi',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/AEG_arq/aeg.jpg'
   };
   
@@ -42,6 +45,8 @@ const info857 = {
   const infoAtiva = {
     descricao: 'Empresa Ativa Empreendimentos Imobiliarios utiliza arquivos Excel para Pagamentos.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Ativa Empreendimentos Imobiliarios\\ImportarAPagar',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/Ativa_arq/ativaPgto.jpg'
   }
 
@@ -58,6 +63,8 @@ const info857 = {
   const infoBarreiro = {
     descricao: 'Empresa Barreiro e Wawzeniak Ltda utiliza arquivos Excel para Recebimento.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Barreiro e Wawzeniak Ltda\\NovoImportador',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/Barreiro_arq/recebimentosMes.jpg',
   }
 
@@ -84,30 +91,40 @@ const info857 = {
   const infoCacaPesca = {
     descricao: 'Empresa Clube de Caça e Pesca Santo Huberto arquivos Excel para Pagamentos.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Clube de Caça e Pesca Santo Huberto\\NovoImportador',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/cacaPesca_arq/pagamento.jpg',
   }
 
   const infoCasaA = {
     descricao: 'Empresa CASA A utiliza arquivos Excel para Pagamentos e Recebimentos sendo que para ambos os importadores o arquivo segue o mesmo Layout.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\CASA A INDÚSTRIA DE MÓVEIS LTDA\ARQUIVOS IMPORTAÇÃO\\Importador CASA A',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/casaA_arq/pagamento.jpg',
   }
 
   const infoCasaMadeiras = {
     descricao: 'Empresa Casa das Madeiras utiliza arquivos Excel para Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Casa das Madeiras\\Extratos\\Importação',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/casaMadeiras_arq/franSicredi.jpg',
   }
 
   const infoVetvida = {
     descricao: 'Empresa Clinica Veterinaria Vetvida utiliza arquivos Excel para Pagamentos e Recebimentos, sendo que a empresa possui uma variação do importador para importação Anual ou Mensal.',
     caminho: 'Caminho para o Importador: M:\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\CLINICA VETERINARIA VETVIDA LTDA\\Importador',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/Vetvida_arq/pgto_receb.jpg',
   }
 
   const infoGemate = {
     descricao: 'Empresa  utiliza arquivos Excel para Pagamentos.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Construtora Gamate Ltda\\Importador\\ImportarAPagar',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/Gemate_arq/pagamento.jpg',
   }
 
@@ -124,6 +141,8 @@ const info857 = {
   const infoDiFiori = {
     descricao: 'Empresa Essencia Di Fiori utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Essencia Di Fiori\\ImportadorFranscesinhaSicredi',
+    descPgto: 'Arquivo para o Importador',descPgto: 'Arquivo para o Importador',
+
     imagem: './assets/emp_arquivos/excelClass/diFiori_arq/franSicredi.jpg'
   }
 
@@ -150,12 +169,14 @@ const info857 = {
   const infoIcehot = {
     descricao: 'Empresa Icehot Comunicação Ltda utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Icehot Comunicação Ltda\\NovoImportador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/icehot_arq/franSicredi.jpg'
   }
 
   const infoInviseg = {
     descricao: 'Empresa INVISEG ASSESSORIA EM SEGURANÇA utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\INVISEG ASSESSORIA EM SEGURANÇA E MEDICINA DO\\Novo Importador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/inviseg_arq/franSicredi.jpg'
   }
 
@@ -172,12 +193,14 @@ const info857 = {
   const infoAnderle = {
     descricao: 'Empresa Mecânica Anderle utiliza arquivos Excel para Pagamentos.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Mecânica Anderle\\ARQUIVOS IMPORTAÇÃO\\Importador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/Anderle_arq/pagamento.jpg'
   }
 
   const infoGrepar = {
     descricao: 'Empresa Mercado de Alimentos Grepar Ltda utiliza arquivos Excel para Parcelas de Clientes.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Mercado de Alimentos Grepar Ltda\\Importador Baixa de Parcelas',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/Grepar_arq/parcelas.jpg'
   }
 
@@ -203,6 +226,7 @@ const info857 = {
 
   const infoServlar = {
     descricao: 'Empresa Servlar utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
+    descPgto: 'Arquivo para o Importador',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Servlar\\NovoImportador',
     imagem: './assets/emp_arquivos/excelClass/Servlar_arq/recebimento.jpg'
   }
@@ -210,24 +234,28 @@ const info857 = {
   const infoTatum = {
     descricao: 'Empresa Tatum Agência de Publicidade e Propaganda Eireli utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Tatum Agência de Publicidade e Propaganda Eireli\\Novo Importador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/Tatum_arq/franSicredi.jpg'
   }
 
   const infoTransmaria = {
     descricao: 'Empresa Transmaria Transportes Ltda utiliza arquivos Excel para Recebimento sendo o modelo Francesinha Sicredi.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Transmaria Transportes Ltda\\NovoImportador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/Transmaria_arq/franSicredi.jpg'
   }
 
   const infoVinhedos = {
     descricao: 'Empresa Vinhedos Transportes Ltda utiliza arquivos Txt para Pagamentos.',
     caminho: 'Caminho para o Importador: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\Vinhedos Transportes Ltda\\NovoImportador',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/Vinhedos_arq/pagamento.jpg'
   }
 
   const infoNicolao = {
     descricao: 'Empresa NICOLAO & MATOS LTDA & FILIAIS utiliza arquivos Excel para Recebimentos e Pagamentos de Matriz e Filial.',
     caminho: 'Caminhos para os Arquivos: M:\\Fisc_Contabil\\EMPRESAS\\01 - EMPRESAS ATIVAS E INATIVAS\\NICOLAO & MATOS LTDA & FILIAIS\\Contabilidade\\12-2022',
+    descPgto: 'Arquivo para o Importador',
     imagem: './assets/emp_arquivos/excelClass/nicolao_arq/pgto.jpg'
   };
 

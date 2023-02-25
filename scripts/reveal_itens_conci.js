@@ -5,6 +5,7 @@ const caminhoAltElement = detailItensAlt.querySelector('.primary_text_road');
 const imagemAltElement = detailItensAlt.querySelector('.primary_image img');
 const descRecebAlt = detailItensAlt.querySelector('.descReceb');
 const imgRecebAlt = detailItensAlt.querySelector('.secondary_image img');
+const descPgtoAlt = detailItensAlt.querySelector('.descPgto');
 
 function updateDetailItens_conciliador(selectedOption) {
   const selectedInfoAlt = infoMap_conci[selectedOption];
@@ -12,6 +13,7 @@ function updateDetailItens_conciliador(selectedOption) {
     detailItensAlt.style.display = 'block';
     descricaoAltElement.textContent = selectedInfoAlt.descricao_conci;
     caminhoAltElement.textContent = selectedInfoAlt.caminho_conci;
+    descPgto.textContent = selectedInfoAlt.descPgto_conci;
     imagemAltElement.src = selectedInfoAlt.imagem_conci;
     descRecebAlt.textContent = selectedInfoAlt.cls_text;   
   } else {
