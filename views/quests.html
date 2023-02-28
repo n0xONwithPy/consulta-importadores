@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon_app.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Painel de Importadores - Duvidas Frequentes</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
         <figure class="HeaderContainer primary_logo">
             <img src="../assets/primary_logo.png" alt="Logo Principal">
         </figure>
-        <h1 class="HeaderContainer primary_title">Painel de Consulta de Importadores - Dúvidas Frequentes</h1>
+        <h1 class="HeaderContainer primary_title">Painel de Consulta de Importadores<br>Dúvidas Frequentes</h1>
     </header>
 
     <a class="btn_return" href="../index.html">Retornar</a>
@@ -34,13 +36,15 @@
                 </article>
 
                 <section class="all_quests content_video">
-                    <h2>Tutorial Excel</h2>
-                    <iframe src="https://www.youtube.com/embed/rfa8erP6ED8?list=PLLT61SHdeQXuxTYMoLSTrT0kRCChHpc0W" title="Video Tutorial" frameborder="0"></iframe>
-                    <h2>Tutorial Conciliador Contabil</h2>
+                        <h2 id="excel" class="play_btn">Tutorial Excel <i class="fas fa-play"></i></h2>
+                        <iframe class="excel_tutorial" src="https://www.youtube.com/embed/OK5Tq3OPfcM" title="Video Tutorial" frameborder="0" allowfullscreen></iframe>
+                        <h2 id="conciliador" class="play_btn">Tutorial Conciliador Contabil <i class="fas fa-play"></i></h2>
                     <iframe src="https://www.youtube.com/embed/rfa8erP6ED8?list=PLLT61SHdeQXuxTYMoLSTrT0kRCChHpc0W" title="Video Tutorial" frameborder="0"></iframe>
                 </section>
             </section>
     </main>
 
 </body>
+<script src="../scripts/exibe_tutorial.js"></script>
+<script src="../scripts/oculta_h2.js"></script>
 </html>

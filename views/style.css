@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +7,8 @@
 }
 
 :root {
-    --font_set: 'Roboto', sans-serif;
-    ;
+    --font_set:  'Albert Sans', sans-serif;
+    --color : #0e3a5d;
 }
 
 select {
@@ -18,12 +18,15 @@ select {
 #HeaderContainer {
     display: flex;
     flex-direction: column;
-
-    align-items: center;
-    margin-left: auto;
+    align-items: center !important;
+    text-align: center;
+    
     margin-right: auto;
+    margin-left: auto;
 
+    width: 700px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .primary_title {
@@ -35,10 +38,10 @@ select {
     justify-content: space-around;
     flex-direction: row;
     margin: 100px auto;
-    margin-top: 100px;
     margin-top: 10rem;
-    width: 100vw;
+    width: 90vw;
     height: 10px;
+
 }
 
 .info_content_itens {
@@ -95,16 +98,10 @@ select {
 
     text-align: center;
     align-items: center;
-
-    width: 50%;
     height: 400px;
 
     margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
 
-    padding: 50px;
-    
     font-weight: 900;
 }
 
@@ -146,7 +143,7 @@ select {
     font-family: var(--font_set);
     font-size: 13px;
 
-    width: 100vw;
+    width: 90vw;
     margin-right: -3rem;
 }
 
@@ -173,7 +170,27 @@ select {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10rem
+    margin-top: 7rem
+}
+
+.all_quests h2 {
+    margin-bottom: 15px;
+}
+
+.all_quests iframe {
+    display: none;
+}
+
+.btn_fechar {
+    display: none;
+}
+
+.all_quests h2:hover {
+    cursor: pointer;
+}
+
+.fa-play {
+    color: var(--color);
 }
 
 .content_quest {
@@ -202,7 +219,7 @@ select {
 
 .content_quest p {
     display: flex;
-    margin-top: 10px;
+    margin-top: -2px;
     margin-left: 5px;
     font-family: var(--font_set);
     font-size: 13px;
@@ -211,17 +228,40 @@ select {
 
 .content_video {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    width: 1200px;
+    flex-direction: row;
+    width: 1450px;
     height: 600px;
+    font-family: var(--font_set);
+    margin-top: -7rem;
+}
 
-    margin-top: 5rem;
+.content_video h2 {
+    font-family: var(--font_set);
+    color: var(--color);
+    font-size: 28px;
+}
+
+.content_video i {
+    font-size: 25px;
 }
 
 .content_video iframe {
-    padding: 1rem;
-    width: 600px;
-    height: 900px;
+    width: 700px;
+    height: 400px;
+    margin-top: 5rem;
 }
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+  }
+  

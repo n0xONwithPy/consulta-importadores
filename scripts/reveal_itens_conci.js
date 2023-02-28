@@ -13,8 +13,8 @@ function updateDetailItens_conciliador(selectedOption) {
     detailItensAlt.style.display = 'block';
     descricaoAltElement.textContent = selectedInfoAlt.descricao_conci;
     caminhoAltElement.textContent = selectedInfoAlt.caminho_conci;
-    descPgto.textContent = selectedInfoAlt.descPgto_conci;
     imagemAltElement.src = selectedInfoAlt.imagem_conci;
+    imgRecebAlt.src = selectedInfoAlt.cls_imagem;
     descRecebAlt.textContent = selectedInfoAlt.cls_text;   
   } else {
     detailItensAlt.style.display = 'none';
